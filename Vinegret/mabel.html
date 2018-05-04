@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 1200px;
+  height: 1000px;
+  position: relative;
+  background-image: url(images/bg.png);
+	background-repeat: no-repeat;
+}
+#animate {
+ 
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  margin-top: 380px;
+  margin-left: 100px;
+
+}
+
+#ponchik {
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 400px;
+  margin-top: 450px;
+  
+        
+-moz-animation: rotator 2s linear infinite;
+        -webkit-animation: rotator 2s linear infinite;
+        -ms-animation: rotator 2s linear infinite;
+		transform-origin: 90% 100%;
+
+} 
+
+#ponchik2 {
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 450px;
+  margin-top: 480px;
+  
+        
+-moz-animation: rotator 2s linear infinite;
+        -webkit-animation: rotator 2s linear infinite;
+        -ms-animation: rotator 2s linear infinite;
+		transform-origin: 50% 100%;
+
+} 
+    @keyframes rotator{
+            from{
+                transform: rotate(360deg)
+            }
+            to{
+                transform: rotate(0deg)
+            }
+        }
+        @-webkit-keyframes rotator{
+            from{
+                transform: rotate(360deg)
+            }
+            to{
+                transform: rotate(0deg)
+            }
+        }
+
+#waddles {
+
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 950px;
+  margin-top: 410px;
+  }
+        
+#mybut {
+    background:url(images/start.png);
+    
+    width: 420px;
+    height: 200px;
+    border: none;
+}
+
+</style>
+<body>
+
+<audio src="sounds/sound.mp3" autoplay="autoplay"></audio>
+<h1>Gravity falls Animation</h1>
+
+<div id ="container">
+
+<img src="images/mabel1.png" id ="animate">
+<img src="images/sweet1.jpg" id ="ponchik">
+<img src="images/sweet2.png" id ="ponchik2">
+<img src="images/waddles.png" id ="waddles">
+<p>
+<button id = "mybut" onclick="myMove()";> </button>
+</p>
+</div>
+
+
+ 
+<script>
+function myMove() {
+ var audio = new Audio(); // —оздаЄм новый элемент Audio
+  audio.src = 'sounds/gravityfalls.mp3'; // ”казываем путь к звуку "клика"
+  audio.autoplay = true;
+  var elem = document.getElementById("animate"); 
+  var pig = document.getElementById("waddles");  
+  var pon = document.getElementById("ponchik");
+  var pon2 = document.getElementById("ponchik2");
+  var pos = 0;
+  var id = setInterval(frame, 100);
+  function frame() {
+    if (pos == 24) {
+    pon.parentNode.removeChild(ponchik);
+    
+    }
+    if (pos >=0 && pos <75){
+      pos++; 
+    elem.style.left = 10*pos+ 'px'; 
+    
+          }
+   if (pos >=0 && pos <70){
+       elem.style.top = Math.cos(pos)*10 + 'px'; 
+          }
+    if (pos == 25) {
+      
+      document.getElementById("animate").src = "images/mabel2.png";
+      elem.style.height = '210px';
+      elem.style.width = '150px';
+      pon2.parentNode.removeChild(ponchik2);
+    } 
+    if (pos == 28) {
+      
+      document.getElementById("animate").src = "images/mabel5.png";
+      
+    } 
+     
+    if (pos == 36) {
+      document.getElementById("animate").src = "images/ahmabel.png";
+      elem.style.height = '200px';
+      elem.style.width = '122px';
+     
+    }
+     if (pos >=20 && pos <70){
+       pig.style.top = Math.cos(pos)*10+5 + 'px';
+        }
+    if (pos == 70) {
+    
+    elem.style.top = Math.cos(pos)*10-100 + 'px';
+    elem.style.left = elem.style.left + 70 + 'px';
+    pig.style.top = pig.style.top - 100 + 'px';
+    pig.style.left = pig.style.left - 100 + 'px';
+    document.getElementById("animate").src = "images/obnim.jpg";
+     pig.parentNode.removeChild(waddles);
+    elem.style.height = '250px';
+      elem.style.width = '190px';
+    
+ }
+    if (pos == 73) {
+    elem.style.top = Math.cos(pos)*10 + 'px'; 
+    clearInterval(id);
+   }
+    
+    }
+}
+</script>
+
+</body>
+</html>

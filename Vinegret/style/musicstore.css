@@ -1,0 +1,29 @@
+musicstore {
+    background-image: url("images/1.jpg");
+    background-repeat: repeat;
+    background-color: lightblue;
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-left: 0;
+	color: black;
+	font-family: verdana;
+	font-size: 20px;
+	display: inline;
+} 
+a1,a2,a3,a4,a5 {
+	display: block;
+}
+TITLE ,MATERIAL, COUNTRY, COMPANY, PRICE, YEAR_OF_PRODUCTION {
+    display: inline;
+    margin-left: 20;
+	font-size: 20pt;
+	font-family: verdana;
+	color: blue;
+	white-space: normal;
+}
+
+a6 {
+	 margin-bottom: 40px;
+	   display: block;
+}

@@ -1,0 +1,150 @@
+﻿<html> 
+<head>
+    <title> My super project boomboomboom</title>
+<meta  charset="UTF-8"> 
+</head> 
+<style>
+    #Intro {
+        width: 780px;
+    
+     
+    border: 5px solid white;
+    border-style: outset;
+    text-align: center;
+        color: black;
+        font-size : 32px;
+        font-family: Georgia serif;
+        font-style: bold;
+        background-image: "bg.jpg";
+    }
+    #Go {
+        width: 700px;
+    
+    margin-left: 0px; 
+    border: 5px solid coral;
+    border-style: outset;
+    color: black;
+    text-align: center;
+     
+        font-size : 32px;
+        font-family: Georgia serif;
+        font-style: bold;
+       
+    }
+    #Superboom {
+       
+        background-image: "bg.jpg";
+        margin-left:125px;
+        width: 800px; height: 500 px;
+       
+    }
+    #panel, #Intro, #Go {
+    padding: 5px;
+        background-color: slategrey;
+    }
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-image: url("images/bg.jpg");
+    
+}
+    </style>
+<body>
+
+    <form id = "Superboom" name = "myform">
+     <div id = "Intro">Регистрация на сайте </div>
+        <div id="panel">
+        <TABLE>        
+            <TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Никнейм:</B></TD><TD>
+            <INPUT TYPE="text" id="family" SIZE="20" >
+                                                </TD></TR>
+    
+<TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Пароль:</B></TD><TD><INPUT TYPE="password"         NAME="pwd" SIZE="20"></TD></TR>
+
+<TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Электронная почта:</B></TD><TD>
+            <INPUT TYPE="text"    id="family2" SIZE="20" >
+                                                </TD></TR>
+    
+      <TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Год рождения:</B></TD><TD>
+      <SELECT ID="Year" SIZE=3 onChange = "GetAge()"; >
+        <OPTION VALUE=1997 SELECTED> 1997
+        <OPTION VALUE=1996> 1996   
+        <OPTION VALUE=1995> 1995   
+        <OPTION VALUE=1994> 1994
+        <OPTION VALUE=1993> 1993
+        <OPTION VALUE=1992> 1992
+            </SELECT>
+</TD></TR>
+          
+      <TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Возраст:</B></TD><TD> 
+<INPUT TYPE="text"   id="Age"  SIZE="4"  ></TD></TR> 
+
+     <TR><TD><B style = "font-family: Georgia serif; font-size: 24px;">Ваш пол:</B><INPUT TYPE="radio" Name="Sex" VALUE="1" onClick="Check();" style = "font-family: Georgia serif; font-size: 24px;"> <text style = "font-family: Georgia serif; font-size: 24px;">Мужской </text>
+                            <INPUT TYPE="radio" Name="Sex" VALUE="2" onClick="Check();" ><text style = "font-family: Georgia serif; font-size: 24px;"> Женский </text>
+         </TD></TR> 
+    </TABLE>      
+   <TABLE>         
+         
+             <TR><TD>  <TEXTAREA NAME="Comment"
+        ROWS="8"   COLS="40" WRAP="physical">
+      </TEXTAREA>  </TD></TR> 
+       
+            
+           
+  
+         <TR><TD> 
+<INPUT TYPE="button" VALUE="Complete"      onClick="Completeform();">
+</TD></TR>
+      
+      <!--       <TR><TD> 
+<INPUT TYPE="button" ID="Go" VALUE=" Прохождение теста"      onclick=" location.href='anketatrue.html'  ">
+</TD></TR> -->
+        
+        
+           </TABLE>    
+             </div>
+    </form>
+         
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#Intro").click(function(){
+        $("#panel").slideDown("slow");
+     //   $("#panel").slideUp("slow");
+    });
+});
+</script>
+         
+         
+         
+<script language = "JavaScript"> 
+    function GetAge()
+    {
+        document.myform.Age.value = 2016 - document.myform.Year.value;
+    }
+    
+    function Check(){
+          if(this.checked) {chkRadio(this.form,this.value);}}
+    
+     function Completeform() {
+	document.myform.Comment.value = "Никнейм: " + document.myform.family.value + "\n";     
+    document.myform.Comment.value += "Электронная почта: " + document.myform.family2.value + "\n";    
+    document.myform.Comment.value += "Возраст: " + document.myform.Age.value + "\n";
+    document.myform.Comment.value += "Пол: ";    
+         
+        if (document.myform.Sex.value == 1) {
+             document.myform.Comment.value += "Мужской";
+         }
+         if (document.myform.Sex.value == 2) {
+             document.myform.Comment.value += "Женский";
+         }
+     }
+    
+    
+    
+  
+    
+</script>
+</body>
+</html>

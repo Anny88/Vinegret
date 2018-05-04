@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style/musicstore.css"?>
+<!DOCTYPE musicstore SYSTEM "musicstore.dtd">
+<musicstore>
+<instrument category = "acoustic guitar">
+<h1>Модель инструмента: </h1>
+<TITLE>Stagg D600</TITLE> <a1> </a1>
+<h2>Материал: </h2> 
+<MATERIAL>Oak Wood</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>China</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Stagg</COMPANY> <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>500$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2005 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+
+<instrument category = "electric guitar">
+<h1>Модель инструмента: </h1>
+<TITLE>Fender Telecaster</TITLE> <a1> </a1>
+<h2>Материал: </h2> 
+<MATERIAL>Steel</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>USA</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Telecaster</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>2500$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2013 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+
+<instrument category = "acoustic guitar">
+<h1>Модель инструмента: </h1>
+<TITLE>Stagg E5600</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Wood</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>China</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Stagg</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>800$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2008 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+
+<instrument category = "piano">
+<h1>Модель инструмента: </h1>
+<TITLE>Yamaha HS250</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Oak Wood</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3> 
+<COUNTRY>China</COUNTRY>   <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Yamaha</COMPANY>   <a4> </a4>
+<h5>Цена: </h5>  
+<PRICE>2000$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2012 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+
+<instrument category = "acoustic guitar">
+<h1>Модель инструмента: </h1>
+<TITLE>Keifer T500</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Steel</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>China</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Keifer</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>800$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2015 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument> 
+
+<instrument category = "electric guitar">
+<h1>Модель инструмента: </h1>
+<TITLE>Les Paul S500</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Steel</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>USA</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Les Paul</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>2000$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2013 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+
+<instrument category = "cello">
+<h1>Модель инструмента: </h1>
+<TITLE>Yamaha D600</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Wood</MATERIAL>  <a2> </a2>
+<h3>Страна производства: </h3> 
+<COUNTRY>China</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4>
+<COMPANY>Yamaha</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>1000$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2008 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+<instrument category = "piano">
+<h1>Модель инструмента: </h1>
+<TITLE>Sauter E12</TITLE> <a1> </a1>
+<h2>Материал: </h2>
+<MATERIAL>Oak Wood</MATERIAL> <a2> </a2>
+<h3>Страна производства: </h3>
+<COUNTRY>Germany</COUNTRY> <a3> </a3>
+<h4>Производитель: </h4> 
+<COMPANY>Sauter</COMPANY>  <a4> </a4>
+<h5>Цена: </h5>
+<PRICE>8000$</PRICE> <a5> </a5>
+<h6>Год производства: </h6>
+<YEAR_OF_PRODUCTION>2002 </YEAR_OF_PRODUCTION> <a6> </a6>
+</instrument>
+</musicstore>

@@ -1,0 +1,353 @@
+﻿<html> 
+<head>
+    <title> My super project boomboomboom</title>
+<meta  charset="UTF-8"> 
+</head> 
+<style>
+    #Intro,#Test {
+     margin-top: 10px;
+     margin-left: 250px;
+     border: 5px solid black;
+        border-style: outset;
+    color: ghostwhite;
+    text-align: center;
+    width: 320px; 
+        font-size : 32px;
+        font-family: Georgia serif;
+      font-style: bold;
+    }
+    #Superboom {
+        background-color: teal;
+        margin-left:10%;  width: 800px; height: 500 px;
+        border: 5px solid ghostwhite;
+        padding-left: 2%;
+    }
+      #Superboom2 {
+        background-color: black;
+        margin-left:1100px;  width: 70px; height: 500 px;
+     
+    }
+    .abs{
+        position: absolute;
+        top:85px;
+        right:10%;
+    }
+    
+    #bulb1
+    {
+        width: 60px;
+        margin-top:20px; 
+        
+    }
+     #bulb2
+    {
+        width: 60px;
+        margin-top:60px; 
+       
+    }
+    #bulb3
+    {
+         width: 60px;
+        margin-top:125px; 
+       
+    }
+    #bulb4
+    {
+       width: 60px;
+        margin-top:1050px; 
+        
+    }
+    #bulb5
+    {
+        width: 60px;
+        margin-top:40px; 
+        
+    }
+    </style>
+<body style = "background-color:black">
+     
+    
+    <form id = "Superboom2" name = "myform2" class="abs"> 
+         <img src="images/bulb3.jpg"  id = "bulb1">
+	
+        <img src="images/bulb3.jpg" class="bulb2 wrapReady2" id = "bulb2">
+        <img src="images/bulb3.jpg" class="bulb3 wrapReady3" id = "bulb3">
+        <img src="images/bulb3.jpg" class="bulb4 wrapReady4" id = "bulb4">
+        <img src="images/bulb3.jpg" class="bulb5 wrapReady5" id = "bulb5">
+             
+    </form>    
+         
+    <form id = "Superboom" name = "myform">
+        
+    <p id = "Test"> Прохождение теста </p>
+        
+     
+        
+     <TR><TD><B>1. Что ты делаешь в свободное время?</B></TD></TR><TR><TD><BR>
+          <INPUT TYPE="radio" NAME="first" VALUE="1"
+        onClick=" Radiowork(); " > Здравствуй.
+Читаю книги, а так же пишу стихи. Мне очень нравится этим заниматься.
+              </TD></TR>
+       
+       <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="first" VALUE="2"
+        onClick="Radiowork();"> И тебе привет!
+Играю на гитаре(или же на другом музыкальном инструменте) и слушаю музыку. Музыка - моя страсть.
+              </TD></TR>
+           
+        <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="first" VALUE="3"
+        onClick="Radiowork();"> Хаю-хай!
+Жрать, конечно же. Вкусняшки часто поднимают мне настроение.
+              </TD></TR>  
+            
+            <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="first" VALUE="4"
+        onClick="Radiowork();"> Тусоваться с моими поклонниками и фанатами.
+             </TD></TR>
+                
+                
+        <TR><TD><B><BR>
+  	2. С этим разобрались. А какой жанр музыки ты предпочитаешь? :з</B></TD></TR><TR><TD><br>
+          <INPUT TYPE="radio" NAME="second" VALUE="1"
+        onClick="Radiowork2();">  Классику.
+Она расслабляет.
+              </TD></TR>
+       
+       <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="second" VALUE="2"
+        onClick="Radiowork2();"> Рок, металл и ничего больше.
+              </TD></TR>
+           
+        <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="second" VALUE="3"
+        onClick="Radiowork2();">Хип-хоп, йоу.
+              </TD></TR>  
+            
+            <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="second" VALUE="4"
+        onClick="Radiowork2();"> Гламурный поп.
+              </TD></TR>
+           
+                
+               
+        <TR><TD><B><BR>
+  	3. Это хорошо.~
+А ТЕПЕРЬ ВЫБЕРИ ПОНЯШУ!!! *О*</B></TD></TR><TR><TD><BR>
+          <INPUT TYPE="radio" NAME="third" VALUE="1"
+        onClick="Radiowork3();">  Вот эта сиреневая няша.<br><img src="images/1.png" id = "pict">
+              </TD></TR> <br>
+       
+       <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="third" VALUE="2"
+        onClick="Radiowork3();"> Эта милашка круче всех. <br><img src="images/2.png" id = "pict">
+              </TD></TR>
+           
+        <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="third" VALUE="3"
+        onClick="Radiowork3();">Зеленые поняхи рулят! *о* <br><img src="images/3.png" id = "pict">
+              </TD></TR>  
+            
+            <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="third" VALUE="4"
+        onClick="Radiowork3();">  Не люблю пони. :с
+              </TD></TR>        
+                
+              
+            <TR><TD><B><BR>
+  4. Какое животное ты бы хотела/хотел приютить у себя?</B></TD></TR><TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fourth" VALUE="1"
+        onClick="Radiowork4();"> Белого и пушистого кролика.
+              </TD></TR>
+       
+       <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fourth" VALUE="2"
+        onClick="Radiowork4();">Рыбки.
+За ними не нужно особо ухаживать.
+              </TD></TR>
+           
+        <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fourth" VALUE="3"
+        onClick="Radiowork4();"> СВИНКА! *О*
+Пухлая, розовая, с пяточком.
+              </TD></TR>  
+            
+            <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fourth" VALUE="4"
+        onClick="Radiowork4();">  Ненавижу животных.
+              </TD></TR>  
+                
+                
+            <TR><TD><B><BR>
+  	5. Опиши себя.</B></TD></TR><TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fifth" VALUE="1"
+        onClick="Radiowork5();"> Тихая/Тихий.
+              </TD></TR>
+       
+       <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fifth" VALUE="2"
+        onClick="Radiowork5();"> Взрывная/Взрывной.
+              </TD></TR>
+           
+        <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fifth" VALUE="3"
+        onClick="Radiowork5();"> Лени~ивая/Лени~ивый.
+              </TD></TR>  
+            
+            <TR><TD><BR>
+          <INPUT TYPE="radio" NAME="fifth" VALUE="4"
+        onClick="Radiowork5();">  Властная/Властный.
+              </TD></TR>       
+                    
+             
+       
+            
+           
+  
+         <TR><TD> <BR>
+<INPUT TYPE="button" VALUE="Закончить!"      onClick="Complete();">
+</TD></TR>
+           <br> <text id = "result" style = "color: navy; font-size: 28px;">  Жми и узнай результат!</text> <br>
+             <text id = "description" style = "color: navy; font-size: 20px;"> </text> <br>
+        <img src="images/123.png" class="image1" id = "edit">
+             <img src="images/123.png" class="image1" id = "edit2">
+        
+           </TABLE>    
+    </form>
+                
+                <!--<script src="jquery-3.1.1.js"></script>
+//<script src="jquery.slickwrap.js"></script>
+<script>
+//$(document).ready(function() {
+  //  $('.wrapReady1').slickWrap();}
+
+
+//$( "#OK1" ).click(function() {
+ // alert( "Handler for .click() called." );
+//$('#bulb1').src = 'images/bulb1.jpg';
+
+
+//("#bulb1").attr("src", "images/bulb1.jpg")});
+
+$(function() {
+  $('.OK1').click(function(){
+    $("#bulb1").attr('src',"images/bulb1.jpg");
+  });
+});
+
+</script> -->
+<style>
+    .form1  {
+  margin-top:525px;
+  float: right;
+}
+    
+</style>
+
+<script language = "JavaScript"> 
+    
+    function Radiowork(){
+          if(this.checked) {chkRadio(this.form,this.value);}
+          document.getElementById('bulb1').src = 'images/bulb1.jpg';
+          document.getElementById('bulb1').style.width = '73px';
+       
+        var audio = new Audio(); // Создаём новый элемент Audio
+        audio.src = 'sounds/LightSwitch.mp3'; // Указываем путь к звуку "клика"
+        audio.autoplay = true;
+    }
+        function Radiowork2(){
+          if(this.checked) {chkRadio(this.form,this.value);}
+          document.getElementById('bulb2').src = 'images/bulb1.jpg';
+          document.getElementById('bulb2').style.width = '73px';
+            
+            var audio = new Audio(); // Создаём новый элемент Audio
+            audio.src = 'sounds/LightSwitch.mp3'; // Указываем путь к звуку "клика"
+            audio.autoplay = true;
+    }
+        function Radiowork3(){
+          if(this.checked) {chkRadio(this.form,this.value);}
+          document.getElementById('bulb3').src = 'images/bulb1.jpg';
+          document.getElementById('bulb3').style.width = '73px';
+            
+            var audio = new Audio(); // Создаём новый элемент Audio
+            audio.src = 'sounds/LightSwitch.mp3'; // Указываем путь к звуку "клика"
+            audio.autoplay = true;
+    }
+        function Radiowork4(){
+          if(this.checked) {chkRadio(this.form,this.value);}
+          document.getElementById('bulb4').src = 'images/bulb1.jpg';
+          document.getElementById('bulb4').style.width = '73px';
+            
+            var audio = new Audio(); // Создаём новый элемент Audio
+            audio.src = 'sounds/LightSwitch.mp3'; // Указываем путь к звуку "клика"
+            audio.autoplay = true;
+    }
+        function Radiowork5(){
+          if(this.checked) {chkRadio(this.form,this.value);}
+          document.getElementById('bulb5').src = 'images/bulb1.jpg';
+          document.getElementById('bulb5').style.width = '73px';
+            
+            var audio = new Audio(); // Создаём новый элемент Audio
+            audio.src = 'sounds/LightSwitch.mp3'; // Указываем путь к звуку "клика"
+            audio.autoplay = true;
+    }
+     
+    
+    
+        function Complete()
+    {
+         var a = []; var max=0;
+        a[1]= parseInt(document.myform.first.value);
+        a[2]= parseInt(document.myform.second.value);
+        a[3]= parseInt(document.myform.third.value);
+        a[4]= parseInt(document.myform.fourth.value);
+        a[5]= parseInt(document.myform.fifth.value);
+        var b = [0,0,0,0,0];
+        for (i = 1; i < 6; i++) {
+            for (j=1;j<5; j++){
+            if (a[i]==j) b[j]++;
+            if (b[j]>max) {max=b[j]; count = j;}
+                }
+        }
+        
+	
+        if (count == 1) {
+    document.getElementById('edit').src='images/dipper.gif'; 
+        document.getElementById('edit2').src='images/dipper2.png'; 
+        document.getElementById('edit2').style.width= '200px';
+             document.getElementById('result').innerHTML = "    Ты - Диппер Пайнс!"; 
+            document.getElementById('description').innerHTML = "    любопытный и изобретательный мальчик 12 лет"
+        }
+        if (count == 2) {
+     document.getElementById('edit').src='wendy2.gif';
+            document.getElementById('edit2').src='images/wendy.png'; 
+            document.getElementById('edit2').style.width= '130px';
+                document.getElementById('result').innerHTML = "Ты - Венди!";
+            document.getElementById('description').innerHTML = "высокая пятнадцатилетняя девушка-подросток с тёмно-рыжими волосами, дочь дровосека Дэна. Подрабатывает в Хижине Чудес. На работе в основном бездельничает. Знает, что Диппер влюблён в неё, но он для неё просто друг";
+         }
+        if (count == 3) {
+     document.getElementById('edit').src='images/soos.gif'; 
+        document.getElementById('edit2').src='images/soos2.gif'; 
+        document.getElementById('edit').style.width= '390px';
+        document.getElementById('edit2').style.width= '390px';
+                document.getElementById('result').innerHTML = "Ты - Зус!"; 
+            document.getElementById('description').innerHTML = " постоянный сотрудник Хижины Чудес. Всегда надевает шорты и зелёную майку с вопросительным знаком на ней. Немного неуклюжий и не всегда всё понимает вовремя. Любит прикалываться.";
+        }
+        if (count == 4) {
+     document.getElementById('edit').src='images/pp.gif'; 
+        document.getElementById('edit2').src='images/pp.png'; 
+        document.getElementById('edit2').style.width= '200px';
+            document.getElementById('result').innerHTML = "Ты - Пасифика!"; 
+            document.getElementById('description').innerHTML = " знаменитая, популярная и высокомерная девушка";
+        }
+        
+         var audio = new Audio(); // Создаём новый элемент Audio
+        audio.src = 'sounds/Music.mp3'; // Указываем путь к звуку "клика"
+        audio.autoplay = true;
+        
+    }
+  
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="instrument">
+  <xs:complexType>
+    <xs:sequence>
+	  <xs:attribute name="category" type="xs:string" use="required"/>
+      <xs:element name="TITLE" type="xs:string"/>
+      <xs:element name="MATERIAL" type="xs:string"/>
+      <xs:element name="COUNTRY" type="xs:string" default="China"/>
+      <xs:element name="COMPANY" type="xs:string">
+		<xs:simpleType>
+				<xs:restriction base="xs:string">
+				  <xs:enumeration value="Telecaster"/>
+				  <xs:enumeration value="Stagg"/>
+				  <xs:enumeration value="Yamaha"/>
+				  <xs:enumeration value="Keifer"/>
+				  <xs:enumeration value="Sauter"/>
+				  <xs:enumeration value="Les Paul"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+	  <xs:element name="PRICE" type="xs:integer">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="100"/>
+				<xs:maxLength value="10000"/>
+			</xs:restriction>
+		</xs:simpleType>
+	  </xs:element>
+	  <xs:element name="YEAR_OF_PRODUCTION" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

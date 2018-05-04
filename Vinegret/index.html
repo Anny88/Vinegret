@@ -1,0 +1,457 @@
+﻿<html>
+<title>Site-solyanka</title>
+<head> 
+    <meta  charset="UTF-8">
+	<style>
+		@font-face {
+			font-family: Sun; src: url('WITHOUT-SUN.otf'); 
+		}
+	
+		#slyde1 {
+		
+		width: 100%;
+		height: 100%;
+		
+		}        
+			#h1{
+			font-family: Jokerman;
+			font-weight: 500;
+			font-size: 120px;
+			margin-top:4%;
+ 			text-align: center;
+                
+               
+			}
+            #line{
+	    
+            font-family: Sun;
+			font-size: 25px;
+			text-align: center;
+                
+            }
+            #small{
+            font-family: Sun;
+			font-size: 80px;
+			text-align: center;
+                
+        }
+        #anketa, #animation, #guitars, #countries, #sign_up, #anketa1, #animation1, #guitars1, #countries1, #sign_up1, #about_us   {
+            font-family: Kristen ITC;
+			font-size: 40px;
+			text-align: center;
+            padding-top: 5%;
+            width:22%;
+            height: 20%;
+            border: 2px solid grey; 
+            
+        }
+        
+        #about_us1 {
+            padding-top: 15%;
+            margin-left: 0%;
+            width:22%;
+            height: 20%;   
+            font-family: Kristen ITC;
+			font-size: 40px;
+            color:dodgerblue;
+			text-align: center;
+        }
+        #about_us2 {
+            padding-top: 15%;
+            margin-left: 15%;
+            width:22%;
+            height: 20%;   
+            font-family: Kristen ITC;
+			font-size: 40px;
+            color:firebrick;
+			text-align: center;
+        }
+        
+        #anketa {
+             background-color:bisque;
+        }  
+        #animation {
+             background-color:khaki;
+        }
+          
+         #guitars {
+             background-color:darksalmon;
+        } 
+         #countries {
+             background-color:darkseagreen;
+        } 
+        
+        .box div {
+            margin-top: 5%;
+            margin-left: 2%;
+            width = 100%; 
+            display:inline-block;
+            }
+        .box1 div {
+            margin-top: 5%;
+            margin-left: 2%;
+            width = 100%; 
+            display:inline-block;
+            }
+		.menu div {
+               
+           display:inline-block;
+            
+            }
+        #about{
+            font-family: A Day Without Sun;
+			font-size: 55px;
+            padding: 5px;
+            position:fixed;
+			margin-left: 83%;  
+            margin-top:1px;
+             
+        }
+		</style>
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#anketa").click(function(){
+        $("#anketa").animate({
+            left: '0px',
+            height: '60%',
+            width: '95%'
+        });
+        
+        $("#h1").fadeOut("3000");
+        $("#small").fadeOut("slow");
+        $("#line").fadeOut("slow");
+        $("#animation").fadeOut("3000");
+        $("#guitars").fadeOut("3000");
+        $("#countries").fadeOut("3000");
+        $("#sign_up").fadeOut("3000");
+        
+        $("#but1").show();
+        $("#ff").show();
+         $("#anketa").css({ 'background-image': 'url(images/pink.png)', 'opacity': '0.7', 'height':'100%'});
+    });
+    
+    
+  
+    $("#animation").click(function(){
+        $("#animation").animate({
+            left: '0px',
+            height: '60%',
+            width: '95%'
+        });
+        
+        $("#h1").fadeOut("3000");
+        $("#small").fadeOut("slow");
+        $("#line").fadeOut("slow");
+        $("#anketa").fadeOut("slow");
+        $("#guitars").fadeOut("3000");
+        $("#countries").fadeOut("3000");
+          $("#sign_up").fadeOut("3000");
+        $("#nn").show();
+        $("#but2").show();
+         $("#animation").css({ 'background-image': 'url(images/pink.png)', 'opacity': '0.8'});
+    });
+    
+    $("#guitars").click(function(){
+        $("#guitars").animate({
+            left: '0px',
+            height: '60%',
+            width: '95%'
+        });
+        
+        $("#h1").fadeOut("3000");
+        $("#small").fadeOut("slow");
+        $("#line").fadeOut("slow");
+        $("#anketa").hide();
+        $("#animation").hide();
+        $("#countries").fadeOut("3000");
+          $("#sign_up").fadeOut("3000");
+        $("#but3").show();
+        $("#gg").show();
+         $("#guitars").css({ 'background-image': 'url(images/pink.png)', 'opacity': '0.8'});
+    });
+    
+    $("#countries").click(function(){
+        $("#countries").animate({
+            left: '0px',
+            height: '60%',
+            width: '95%'
+        });
+        
+        $("#h1").fadeOut("3000");
+        $("#small").fadeOut("slow");
+        $("#line").fadeOut("slow");
+        $("#anketa").hide();
+        $("#animation").hide();
+        $("#guitars").hide();
+          $("#sign_up").fadeOut("3000");
+        $("#but4").show();
+        $("#cc").show();
+         $("#countries").css({ 'background-image': 'url(images/green.jpg)', 'opacity': '0.7'});
+    });
+    
+
+    
+         $("#anketa").mouseenter(function(){
+             $("#anketa").animate({
+            height: '+=8px',
+            width: '+=8px'
+        });
+         $("#anketa").css({ 'color': 'navy', 'font-size': '42px' });
+        });
+    
+       $("#animation").mouseenter(function(){
+        $("#animation").animate({
+            height: '+=8px',
+            width: '+=8px'
+        });
+             $("#animation").css({ 'color': 'navy', 'font-size': '42px' });
+        });
+    
+       $("#guitars").mouseenter(function(){
+        $("#guitars").animate({
+            height: '+=8px',
+            width: '+=8px'
+        });
+             $("#guitars").css({ 'color': 'navy', 'font-size': '42px' });
+        });
+    
+       $("#countries").mouseenter(function(){
+        $("#countries").animate({
+            height: '+=8px',
+            width: '+=8px'
+        });
+             $("#countries").css({ 'color': 'navy', 'font-size': '42px' });
+        });
+    
+          $("#sign_up").mouseenter(function(){
+        $("#sign_up").animate({
+            height: '+=8px',
+            width: '+=8px'
+        });
+             $("#sign_up").css({ 'color': 'navy', 'font-size': '42px' });
+        });
+    
+    
+    
+    
+    
+    
+    $("#anketa").mouseleave(function(){
+        $("#anketa").animate({
+            height: '-=8px',
+            width: '-=8px'
+        });
+        $("#anketa").css({ 'color': 'black', 'font-size': '40px' });
+    });
+    
+    $("#animation").mouseleave(function(){
+        $("#animation").animate({
+            height: '-=8px',
+            width: '-=8px'
+        });
+        $("#animation").css({ 'color': 'black', 'font-size': '40px' });
+    });
+    
+    $("#guitars").mouseleave(function(){
+        $("#guitars").animate({
+            height: '-=8px',
+            width: '-=8px'
+        });
+        $("#guitars").css({ 'color': 'black', 'font-size': '40px' });
+    });
+    
+    $("#countries").mouseleave(function(){
+        $("#countries").animate({
+            height: '-=8px',
+            width: '-=8px'
+        });
+        $("#countries").css({ 'color': 'black', 'font-size': '40px' });
+    });
+    
+        $("#sign_up").mouseleave(function(){
+        $("#sign_up").animate({
+            height: '-=8px',
+            width: '-=8px'
+        });
+        $("#sign_up").css({ 'color': 'black', 'font-size': '40px' });
+    });
+    
+    
+    
+
+   // $(function(){
+  $('#but1').click(function(){
+    //$("#anketa").height(100%);
+    //$("#anketa").width(100%);                    
+   // $(location).attr('href','anketatrue.html');
+  /*$("#anketa").animate({
+            left: '0px',
+            height: '100%',
+            width: '95%'
+        });*/   
+    //  $("#anketa1").css({ 'width': '1200px', 'height': '1400px' , 'background-color': 'red' });
+     //  $("#anketa").show();
+      $(".box").hide();
+    // $("#anketa").hide();
+       $("#anketa1").show();
+    /*("#anketa1").animate({
+            left: '0px',
+            height: '100%',
+            width: '95%'
+        });*/
+      $("#anketa1")
+            .html('<object width="98%" height="98%" data="anketatrue.html"/>');   
+      $("#anketa1").css({'width': '98%', 'height': '100%', 'border': 'none', 'margin-top': '2%'});
+  });
+    
+    
+    
+    
+    
+    $('#icon1').click(function(){
+    $(location).attr('href','index.html');
+    });
+    
+    $('#icon2').click(function(){
+    $("#h1").fadeOut("3000");
+    $("#small").fadeOut("slow");
+    $("#line").fadeOut("slow");
+    $(".box").fadeOut("slow");
+    $("#sign_up1").show();  
+        $("#sign_up1").animate({
+            left: '0px',
+            height: '95%',
+            width: '95%'
+        });
+     $("#sign_up1")
+    .html('<object width="95%" height="95%" data="anketas (1).html"/>');    
+    }); 
+    
+    $('#about').click(function(){
+    $("#h1").fadeOut("3000");
+    $("#small").fadeOut("slow");
+    $("#line").fadeOut("slow");
+    $(".box").fadeOut("slow");
+     $("#about_us").show();  
+        $("#about_us1").show(); 
+        $("#about_us2").show(); 
+     $("#about_us").css({'width': '95%', 'height': '100%'});      
+    $("#about_us").css('backgroundImage', 'url(images/img.jpg)');
+    $("#about_us").css('background-size', 'cover');
+     $("#about_us").css('opacity', '0.65');
+        
+            
+    }); 
+    
+    
+      $('#but3').click(function(){
+     $(".box").hide();
+     $("#guitars1").show();  
+     $("#guitars1").css({'width': '95%', 'height': '100%'});      
+    $("#guitars1")
+    .html('<object width="95%" height="95%" data="musicstore.xml"/>');    
+          $("#guitars1").css({'width': '98%', 'height': '100%', 'border': 'none', 'margin-top': '2%'});
+    }); 
+    
+    
+    
+    $('#but2').click(function(){
+        $("#animation1").css({ 'width': '95%', 'height': '100%'  });
+     $(".box").hide();
+     $("#animation1").show();  
+    $("#animation1")
+    .html('<object width="95%" height="95%" data="mabel.html"/>');   
+        $("#animation1").css({'width': '98%', 'height': '100%', 'border': 'none', 'margin-top': '2%'});
+    });     
+    
+    
+
+        $('#but4').click(function(){
+        /*$("#countries").animate({
+            left: '0px',
+            height: '100%',
+            width: '95%'
+        });*/ 
+    $(".box").hide();
+     $("#countries1").show();  
+     $("#countries1").css({'width': '95%', 'height': '100%'});              
+    $("#countries1")
+    .html('<object width="95%" height="95%" data="xml_countries.xml"/>');      
+            $("#countries1").css({'width': '98%', 'height': '100%', 'border': 'none', 'margin-top': '2%'});
+    });     
+    });
+
+
+        
+          
+  //  $("#guitars")
+    //        .html('<object data="anketatrue.html"/>');    
+        
+//});
+    
+
+</script> 
+</head>
+<body style = "background-image: url('images/bg.jpg');">
+	
+	     <div class = "menu">
+             <img src = "images/Home.png" style = "width:60px; position:fixed; margin-left: 2%; margin-top:6px;" id = "icon1"> 
+            <div id = "about">ABOUT US  </div>
+             <img src = "images/menu2.png" style = "width:50px; position:fixed; margin-left: 92%; margin-top:9px;" id = "icon2">  
+         </div>
+    
+		<div id = "h1"  href="~anketatrue.html"> Vinegret </div>
+        <div id = "line"  > ________________________ </div>        
+        <div id = "small"> WEB-SITE OF RANDOM IDEAS</div>
+        
+	   <div class = "box">
+           <div id = "anketa">Questionnairy<br> <br>
+               <h2 id =  "ff" style = "margin-left: 0px;  font-size:20px; display:none;"  > Психологический тест 
+               "На какого героя из мультфильма вы похожи?" <br> реализован с использованием HTML, CSS, JavaScript <br>
+               Включает обработку событий по нажатию кнопок, радиокнопок, музыку, смену изображений  </h2>
+               <h1 id = "but1" style = "margin-left: 0px;  font-size:28px; display:none;"> Пройти тест>></h1> 
+           
+           </div> 
+             <!-- <div style = "width:100%; display:none;" id = "anketa1">  -->
+          <!-- <h1 id = "but1" style = "margin-left: 0px; border: 2px solid grey; width:100%; display:none;">click for more detail</h1>-->
+	        <div id = "animation">Animation<br>
+                <h2 id =  "nn" style = "margin-left: 0px;  font-size:20px; display:none;"  > Анимация (мини-мультфильм) 
+                <br> реализована с использованием HTML, CSS, JavaScript и объектной модели DOM <br>
+               Включает обработку событий, музыку, смену изображений, изменение объектов с течением времени  </h2>
+			<h1 id = "but2" style = "margin-left: 0px;  font-size:28px; display:none; ">Смотреть>></h1>
+           
+           </div>
+            <div id = "guitars"> Guitar Shop <br><br>
+                <h2 id =  "gg" style = "margin-left: 0px;  font-size:20px; display:none;"  > Музыкальный магазин, <br>
+                    содержит информацию о гитарах 
+                <br> реализован с использованием XML и отображен с помощью таблицы стилей CSS </h2>
+			<h1 id = "but3" style = "margin-left: 0px;  font-size:22px; display:none;">click for more detail>></h1>
+           
+           </div> 
+            <div id = "countries"> Countries <br><br>
+                <h2 id =  "cc" style = "margin-left: 0px;  font-size:20px; display:none;"  > Журнал посещенных стран <br>
+                    содержит информацию о странах, столицах, языках и т.д. 
+                <br> реализован с использованием XML и отображен с помощью таблицы стилей CSS </h2>
+			<h1 id = "but4" style = "margin-left: 0px; font-size:22px; display:none;">click for more detail>></h1>
+           
+           </div> 
+        
+      </div>
+     <div class = "box1">
+      <div id = "anketa1" style = "display:none;"> </div>
+      <div id = "animation1" style = "display:none;"> </div>
+      <div id = "guitars1" style = "display:none;"> </div>
+      <div id = "countries1" style = "display:none;"> </div>
+      <div id = "sign_up1" style = "display:none;"> </div>
+      <div id = "about_us" style = "display:none;">    
+          <div id = "about_us1" style = "display:none;"> <h2>The coolest</h2><br>Web-delevoper </div> 
+          <div id = "about_us2" style = "display:none;"> <h2>The coolest</h2><br>Web-delevoper </div> 
+         </div>  
+   
+    </div>
+    
+</body>
+</html>

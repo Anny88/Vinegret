@@ -1,0 +1,116 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/css" href="style/cd_catalog.css"?>
+
+
+<countries
+xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="countries.xsd">
+	<country id = "1">
+		<name>Iceland</name>
+		<location>
+			<continent>Eurasia</continent>
+			<part>north-west</part>
+			<type>island</type>
+		</location>
+		<language>icelandic</language>
+		<capital>Reykjavik</capital>
+		<famous_for>geysers
+		</famous_for>
+	</country>
+	
+	<country id = "2">
+		<name>Spain</name>
+		<location>
+			<continent>Eurasia</continent>
+			<part>south</part>
+			<type>half-island</type>
+		</location>
+		<language>spanish</language>
+		<capital>Madrid</capital>
+		<famous_for>Flamenco
+		</famous_for>
+	</country>
+	
+	
+	
+	<country id = "3">
+		<name>Norway</name>
+		<location>
+			<continent>Eurasia</continent>
+			<part>north</part>
+			<type>half-island</type>
+		</location>
+		<language>norwagian</language>
+		<capital>Oslo</capital>
+		<famous_for>forests
+		</famous_for>
+	</country>
+	
+	<country id = "4">
+		<name>Japan</name>
+		<location>
+			<continent>Eurasia</continent>
+			<part>east</part>
+			<type>island</type>
+		</location>
+		<language>japanese</language>
+		<capital>Tokio</capital>
+		<famous_for>japanese
+		</famous_for>
+	</country>
+	
+	<country id = "5">
+		<name>Morocco</name>
+		<location>
+			<continent>Afrika</continent>
+			<part>north-west</part>
+			<type>continental</type>
+		</location>
+		<language>arabic</language>
+		<capital>Rabat</capital>
+		<famous_for>???
+		</famous_for>
+	</country>
+	
+		<country id = "6">
+		<name>Brasil</name>
+		<location>
+			<continent>South America</continent>
+			<part>north-east</part>
+			<type>continental</type>
+		</location>
+		<language>portuguese</language>
+		<capital>Brasilia</capital>
+		<famous_for>carnavals
+		</famous_for>
+	</country>
+	
+	<country id = "7">
+		<name>Canada</name>
+		<location>
+			<continent>North America</continent>
+			<part>north</part>
+			<type>continental</type>
+		</location>
+		<language>english</language>
+		<capital>Ottawa</capital>
+		<famous_for>hockey
+		</famous_for>
+	</country>
+		
+	<country id = "8">
+		<name>China</name>
+		<location>
+			<continent>Eurasia</continent>
+			<part>east</part>
+			<type>continental</type>
+		</location>
+		<language>chinese</language>
+		<capital>Beigin</capital>
+		<famous_for>cheap_goods
+		</famous_for>
+	</country>
+	
+	
+	</countries>
